@@ -30,4 +30,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: lucasgmarques/go_ci:${{ github.ref_name }}
+        tags: lucasgmarques/go_app:latest
