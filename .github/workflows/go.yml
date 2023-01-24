@@ -46,10 +46,10 @@ jobs:
     - name: Build
       run: go build -v main.go
       
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v3.0.2
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.0.2
       with:
-        name: App in Go
+        name: app_go
         path: main
 
   docker:
